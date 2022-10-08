@@ -211,20 +211,18 @@ button a {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  top: -175px;
+  top: -170px;
   left: 350px;
   padding: 50px 100px 0 50px;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  transition: 0.5s 415s;
   -webkit-border-radius: 0 5px 0 0;
   -moz-border-radius: 0 5px 0 0;
   border-radius: 0 5px 0 0;
 }
 
-.video-main:hover{
+.video-main:hover {
   left: -10%;
+  transition: 0.5s;
 }
 
 iframe {
@@ -239,7 +237,11 @@ main {
   margin-top: -50px;
 }
 
-
+.popular-excursions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 
