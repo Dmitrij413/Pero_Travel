@@ -8,7 +8,7 @@
  */
 
 /* ==========================================================================
-   Base styles: opinionated defaults
+    Base styles: opinionated defaults
    ========================================================================== */
 @font-face {
   font-family: mr_KindlyJasmineG;
@@ -90,11 +90,18 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+    Author's custom styles
    ========================================================================== */
 h1 {
   margin: 0;
   line-height: 44px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0499DD;
 }
 
 li {
@@ -180,7 +187,7 @@ nav a {
   padding-bottom: 248px;
 }
 
-.tagline_right li {
+.tagline-right li {
   padding-bottom: 15px;
 }
 
@@ -200,13 +207,13 @@ button a {
 }
 
 
-.video_main {
+.video-main {
   display: flex;
   justify-content: flex-end;
   position: relative;
   top: -175px;
   left: 350px;
-  padding: 50px 100px;
+  padding: 50px 100px 0 50px;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -216,12 +223,20 @@ button a {
   border-radius: 0 5px 0 0;
 }
 
-.video_main:hover{
+.video-main:hover{
   left: -10%;
 }
 
-.popular_excursions {
-  margin-top: 50px;
+iframe {
+  border-radius: 10px;
+}
+
+#video_1 {
+  padding-right: 20px;
+}
+
+main {
+  margin-top: -50px;
 }
 
 
