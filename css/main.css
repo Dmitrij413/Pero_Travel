@@ -145,8 +145,6 @@ a:hover {
 header {
   background-image: url(../img/bg_header.png);
   background-size: cover;
-  position: fixed;
-  z-index: 1;
 }
 
 .logo {
@@ -201,26 +199,61 @@ button a {
   text-decoration: none;
 }
 
-.rotate {
-  overflow: hidden;
-  position: relative;
-  z-index: 3;
-}
 
 .video_main {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  left: 10em;
-  top: 112px;
-  overflow: hidden;
+  top: -175px;
+  left: 350px;
+  padding: 50px 100px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
 }
 
-
+.video_main:hover{
+  left: -10%;
+}
 
 .popular_excursions {
-  margin-top: 200px;
+  margin-top: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
