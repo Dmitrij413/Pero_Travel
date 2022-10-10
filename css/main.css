@@ -270,15 +270,16 @@ main {
   display: flex;
   flex-wrap: nowrap;
   margin-left: 125px;
+  margin-top: 90px;
   overflow: hidden;
 }
 
 .popular-card {
-  width: 360px;
-  height: 286px;
+  min-width: 360px;
+  max-height: 497px;
   border-radius: 10px;
   margin-right: 20px;
-  padding-top: 211px;
+  padding-top: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -296,40 +297,48 @@ main {
 
 .popular-card button {
   width: 160px;
-  height: 40px;
+  min-height: 40px;
   margin: 20px 124px 42px 16px;
 }
 
 #popular-card-1 {
   background-image: url(../img/card1.png);
+  background-size: cover;
 }
 
 #popular-card-2 {
   background-image: url(../img/card2.png);
+  background-size: cover;
 }
 
 #popular-card-3 {
   background-image: url(../img/card3.png);
+  background-size: cover;
 }
 
 #popular-card-4 {
   background-image: url(../img/card4.png);
+  background-size: cover;
 }
 
 #popular-card-5 {
   background-image: url(../img/card1.png);
+  background-size: cover;
 }
 
 #popular-card-6 {
   background-image: url(../img/card2.png);
+  background-size: cover;
 }
 
 #popular-card-7 {
   background-image: url(../img/card3.png);
+  background-size: cover;
 }
 
 #popular-card-8 {
   background-image: url(../img/card4.jpg);
+  background-size: cover;
 }
 
 .about-us {
@@ -472,6 +481,52 @@ main {
   background-image: url(../img/8.png);
   background-size: cover;
 }
+
+.reviews{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.reviews-cards {
+  display: flex;
+  padding-left: 160px;
+  overflow: hidden;
+}
+
+.reviews-card {
+  min-width: 740px;
+  height: 322px;
+  margin-left: 20px;
+  background-color: #EDEDED;
+  display: flex;
+  border-radius: 10px;
+}
+
+.img-reviews {
+  padding: 38px 28px 39px 45px;
+}
+
+.reviews-card p {
+  margin-top: 38px;
+  margin-right: 27px;
+}
+
+.reviews-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+}
+
+
+
+
+
+
+
+
 
 
 
