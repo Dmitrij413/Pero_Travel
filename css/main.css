@@ -695,6 +695,9 @@ footer ul {
 }
 
 @media (max-width: 1100px) {
+  #tagline_text2 {
+    margin-left: 500px;
+  }
 
   #tagline_text3 {
   line-height: 90%;
@@ -703,10 +706,6 @@ footer ul {
   .container {
     max-width: 88%;
   }
-
-  /* .video-main {
-    left: 150px;
-  } */
 
   .types {
     grid-template-columns: repeat(1, 1fr);
@@ -798,27 +797,11 @@ footer ul {
     margin-left: 30px;
     margin-bottom: 61px;
   }
-
-  /* .video-main {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    top: 800px;
-    align-content: center;
-    left: 80px;
-    padding: 0;
-    transition: 0.5s 415s;
-    -webkit-border-radius: 0 5px 0 0;
-    -moz-border-radius: 0 5px 0 0;
-    border-radius: 0 5px 0 0;
-  }
-  
-  .video-main:hover {
-    left: 0%;
-  } */
 }
 
+@media (max-width: 860px) {
 
+}
 
 
 
