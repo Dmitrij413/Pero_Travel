@@ -364,6 +364,7 @@ main {
   grid-area: 1 / 1 / 12 / 11;
   background-image: url(../img/about_img.png);
   background-size: cover;
+  border-radius: 0 10px 10px 0;
 }
 
 
