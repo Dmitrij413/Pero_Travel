@@ -178,6 +178,11 @@ a:hover {
 header {
   background-image: url(../img/bg_header.png);
   background-size: cover;
+  margin-bottom: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* overflow-x: hidden; */
 }
 
 .logo {
@@ -232,23 +237,19 @@ button a {
   text-decoration: none;
 }
 
-
-.video-main {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  top: -170px;
-  left: 350px;
-  padding: 50px 100px 0 50px;
-  transition: 0.5s 415s;
-  -webkit-border-radius: 0 5px 0 0;
-  -moz-border-radius: 0 5px 0 0;
-  border-radius: 0 5px 0 0;
+.video-position {
+  position: absolute;
+  bottom: -12%;
+  right: 0%;
+  width: 70%;
 }
 
-.video-main:hover {
-  left: -10%;
-  transition: 0.5s;
+.video-main {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 0px 0px 50px;
+  overflow-x: hidden;
 }
 
 iframe {
@@ -259,11 +260,16 @@ iframe {
   padding-right: 20px;
 }
 
+#video_2 {
+  padding-right: 20px;
+}
+
 main {
   margin-top: -50px;
 }
 
 .popular-excursions {
+  margin-top: 260px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -697,9 +703,9 @@ footer ul {
     max-width: 88%;
   }
 
-  .video-main {
+  /* .video-main {
     left: 150px;
-  }
+  } */
 
   .types {
     grid-template-columns: repeat(1, 1fr);
@@ -792,14 +798,13 @@ footer ul {
     margin-bottom: 61px;
   }
 
-  .video-main {
+  /* .video-main {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     top: 800px;
     align-content: center;
-    /* left: 80px; */
-    /* bottom: 50px; */
+    left: 80px;
     padding: 0;
     transition: 0.5s 415s;
     -webkit-border-radius: 0 5px 0 0;
@@ -809,7 +814,7 @@ footer ul {
   
   .video-main:hover {
     left: 0%;
-  }
+  } */
 }
 
 
