@@ -289,7 +289,7 @@ main {
   padding-top: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -644,11 +644,12 @@ footer ul {
 
   .popular-cards {
     height: max-content;
+    justify-content: space-between;
   }
 
   .popular-card {
-    min-width: 300px;
-    max-height: 330px;
+    min-width: 295px;
+    max-height: 490px;
     border-radius: 10px;
     margin-right: 20px;
     padding-top: 130px;
@@ -795,10 +796,58 @@ footer ul {
     margin-left: 30px;
     margin-bottom: 61px;
   }
+
+  .reviews-card {
+    min-width: 505px;
+    height: 246px;
+    margin-left: 20px;
+  }
+  
+  .img-reviews {
+    padding: 0;
+    margin: 26px 20px 52px 31px;
+  }
+  
+  .img-reviews img {
+    max-width: 168px;
+    max-height: 168px;
+  }
+
+  .reviews-card p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 26px;
+    margin-right: 17px;
+  }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 735px) {
+  #tagline_text2 {
+    margin-left: 400px;
+  }
 
+  .tagline {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .about-us {
+    max-height: 549px;
+    margin: 150px 0 0 0;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .about-img {
+      grid-area: 1 / 1 / 12 /11;
+      border-radius: 0%;
+    }
+    
+    .about-card {
+      grid-area: 3 / 2 / 10 / 10;
+    }
 }
 
 
