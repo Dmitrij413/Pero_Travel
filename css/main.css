@@ -344,10 +344,13 @@ main {
 
 .popular-cards {
   display: flex;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   margin-left: 125px;
   margin-top: 90px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
 }
 
 .popular-card {
@@ -705,20 +708,20 @@ footer ul {
   margin-right: 12px;
 }
 
-.scrolling-wrapper {
+/* .scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-}
+} */
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   height: 0;
   width: 0;
 }
 ::-webkit-scrollbar-thumb:horizontal{
   background: #0499DD;
   border-radius: 10px;
-}
+} */
 
 
 @media (max-width: 1480px) {
