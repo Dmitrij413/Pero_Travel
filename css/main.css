@@ -15,7 +15,8 @@
   src: url("../fonts/mr_kindlyjasmineg.otf");
 }
 html {
-  max-width: 1800px; 
+  max-width: 1800px;
+  margin: 0 auto;
   color: #222;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
