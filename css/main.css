@@ -343,18 +343,19 @@ main {
 }
 
 .popular-cards {
+  width: 3250px;
   display: flex;
-  /* flex-wrap: nowrap; */
   margin-left: 125px;
   margin-top: 90px;
-  /* overflow: hidden; */
+  margin-bottom: 20px;
   position: relative;
   left: 0;
   transition: all ease 1s;
+  overflow: hidden;
 }
 
 .popular-card {
-  min-width: 360px;
+  width: 360px;
   max-height: 497px;
   border-radius: 10px;
   margin-right: 20px;
