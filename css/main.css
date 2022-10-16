@@ -529,7 +529,7 @@ main {
 }
 
 .request h2 {
-  margin: 0 0 6px 105px;
+  margin: 0 0 6px 10%;
   padding-top: 132px;
   font-weight: 700;
   font-size: 24px;
@@ -538,7 +538,7 @@ main {
 }
 
 .request p {
-  margin-left: 105px;
+  margin-left: 10%;
   margin-bottom: 0;
   font-weight: 500;
   font-size: 14px;
@@ -1031,6 +1031,20 @@ footer ul {
 
   .request {
     max-width: 75%;
+    height: 450px;
+  }
+
+  .request h2 {
+    padding-top: 10%;
+  }
+
+  .about-card {
+    grid-area: 2 / 2 / 11 / 10;
+  }
+
+  .contact-us {
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 }
 
