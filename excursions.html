@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="scss/style.css">
 
     <meta charset="UTF-8">
     <title>excursions</title>
@@ -32,7 +33,7 @@
             <span></span>
           </label>
           <ul class="menu__box">
-            <li><a class="menu__item" href="#">Главная</a></li>
+            <li><a class="menu__item" href="index.html">Главная</a></li>
             <li><a class="menu__item" href="#">Экскурсии</a></li>
             <li><a class="menu__item" href="#">Личный кабинет</a></li>
           </ul>
@@ -41,10 +42,26 @@
       <h1>Наши экскурсии</h1>
     </div>
   </header>
+  <br>
   <main id="main-excursion">
+    <div class="container">
+        <div class="box">
+            <div class="tabs">
+                <input type="radio" id="radio-1" name="tabs" checked />
+                <label class="tab" for="radio-1">Автобусный тур</label>
+                <input type="radio" id="radio-2" name="tabs" />
+                <label class="tab" for="radio-2">Джиппинг</label>
+                <input type="radio" id="radio-3" name="tabs" />
+                <label class="tab" for="radio-3">Яхтинг</label>
+                <input type="radio" id="radio-4" name="tabs" />
+                <label class="tab" for="radio-4">Каньонинг</label>
+                <span class="glider"></span>
+            </div>
 
+        </div>
+    </div>
   </main>
-  <footer>
+  <footer id="footer-excursions">
       <div class="container">
           <div class="footer-columns">
               <div class="logo-footer"><a href="#"><img src="img/logo_footer.png" alt="Logo Pero Travel"></a></div>
