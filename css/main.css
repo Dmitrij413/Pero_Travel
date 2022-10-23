@@ -375,8 +375,9 @@ main {
 
 .slider {
   margin: 20px 0 0 10%;
-  overflow: hidden;
+  overflow: hidden;+
 }
+
 .slider-line {
   display: flex;
   position: relative;
@@ -437,9 +438,9 @@ main {
 
 .slider-prev, .slider-next {
   font-style: revert;
-  font-size: 90px;
+  font-size: 80px;
   cursor: pointer;
-  color: #888888;
+  color: #D4D4D4;
   width: 70px;
   height: 70px;
   background: white;
@@ -450,6 +451,8 @@ main {
 .slider-button button:hover {
   color: #0499DD;
 }
+
+
 
 .about-us {
   max-height: 749px;
