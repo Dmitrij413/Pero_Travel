@@ -1118,6 +1118,8 @@ footer ul {
 .excursions-filter {
   background-color: #fff;
   padding: 60px 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 .excursions-filter-radio {
@@ -1200,8 +1202,21 @@ footer ul {
   cursor: pointer;
 }
 
+.excursions-our-tours {
+  display: flex;
+  margin-top: 40px;
+}
 
-
+.excursions-filter-left {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 40px;
+  width: 295px;
+  height: 1018px;
+  background-color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
 
 
 
