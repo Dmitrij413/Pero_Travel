@@ -1170,6 +1170,11 @@ footer ul {
 }
 
 .excursions-filter-button button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding: 15px 25px;
   display: flex;
   justify-content: space-between;
   margin: 20px 10px;
