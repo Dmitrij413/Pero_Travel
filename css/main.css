@@ -1162,8 +1162,38 @@ footer ul {
   color: #666;
 }
 
+.excursions-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 60px;
+}
 
+.excursions-filter-button button {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+  max-width: 235px;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
+.excursions-filter-button-sub button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 20px 10px;
+  max-width: 235px;
+  height: 50px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 
 
