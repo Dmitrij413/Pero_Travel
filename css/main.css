@@ -123,6 +123,15 @@ h4 {
   color: #0499DD;
 }
 
+h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0499DD;
+  margin: 25px 35px 31px;
+}
+
 p {
   font-weight: 500;
   font-size: 14px;
@@ -1217,6 +1226,51 @@ footer ul {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
+
+
+.our-tours-card {
+  /*width: 779px;*/
+  height: 303px;
+  left: 492px;
+  top: 696px;
+  background: #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.our-tours-card-text {
+  margin: 27px 23px 20px;
+  padding-top: 27px;
+}
+
+.our-tours-card-text h4 {
+  color: #282828;
+  margin-top: 0;
+}
+
+.our-tours-card-text span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFC700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
