@@ -754,353 +754,8 @@ footer ul {
   margin-right: 12px;
 }
 
-@media (max-width: 1480px) {
-  .gallery-img {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
 
-@media (max-width: 1240px) {
-
-  .container {
-    max-width: 1000px;
-  }
-
-  .popular-cards {
-    height: max-content;
-    justify-content: space-between;
-  }
-
-  .popular-card {
-    min-width: 295px;
-    max-height: 490px;
-    border-radius: 10px;
-    margin-right: 20px;
-    padding-top: 130px;
-  }
-
-  .about-us {
-    max-height: 549px;
-    margin: 150px 60px 0 0;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(11, 1fr);
-    grid-column-gap: 0;
-    grid-row-gap: 0;
-    }
-
-    .about-img {
-      grid-area: 1 / 1 / 12 /7;
-    }
-    
-    .about-card {
-      grid-area: 3 / 4 / 8 / 5;
-    }
-
-  .about-card h2 {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    margin: 0 0 0 50px;
-  }
-
-  .about-card p {
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 61px;
-  }
-
-  .about-card {
-    grid-area: 3 / 5 / 10 / 13;
-  }
-
-  .gallery-img {
-    min-height: 500px;
-  }
-}
-
-@media (max-width: 1100px) {
-  #tagline_text2 {
-    margin-left: 500px;
-  }
-
-  #tagline_text3 {
-  line-height: 90%;
-  }
-
-  .container {
-    max-width: 88%;
-  }
-
-  .types {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
-  .type-text h4 {
-    margin-top: 0;
-  }
-
-  .gallery-img {
-    min-height: 564px;
-    max-width: 1440px;
-    margin: 15px auto 152px;
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-  }
-  
-  #img1 {
-    grid-area: 1 / 1 / 3 / 5;
-    background-image: url(../img/1.png);
-    background-size: cover;
-  }
-  
-  #img2 {
-    grid-area: 1 / 1 / 5 / 6;
-    background-image: url(../img/2.png);
-    background-size: cover;
-  }
-  
-  #img3 {
-    grid-area: 1 / 6 / 3 / 9;
-    background-image: url(../img/3.png);
-    background-size: cover;
-  }
-  
-  #img4 {
-    grid-area: 1 / 9 / 3 / 12;
-    background-image: url(../img/4.png);
-    background-size: cover;
-  }
-  
-  #img5 {
-    grid-area: 3 / 1 / 5 / 3;
-    background-image: url(../img/5.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img6 {
-    grid-area: 3 / 3 / 4 / 5;
-    background-image: url(../img/6.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img7 {
-    grid-area: 4 / 3 / 5 / 5;
-    background-image: url(../img/7.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img8 {
-    grid-area: 3 / 6 / 5 / 12;
-    background-image: url(../img/8.png);
-    background-size: cover;
-  }
-
-  .request {
-    max-width: 560px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 860px) {
-  nav ul {
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-  }
-
-  #tagline_text2 {
-    margin-left: 500px;
-  }
-
-  .about-card h2 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin: 0 0 0 30px;
-  }
-
-  .about-card p {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 61px;
-  }
-
-  .reviews-card {
-    min-width: 505px;
-    height: 246px;
-    margin-left: 20px;
-  }
-  
-  .img-reviews {
-    padding: 0;
-    margin: 26px 20px 52px 31px;
-  }
-  
-  .img-reviews img {
-    max-width: 168px;
-    max-height: 168px;
-  }
-
-  .reviews-card p {
-    font-size: 12px;
-    line-height: 15px;
-    margin-top: 26px;
-    margin-right: 17px;
-  }
-}
-
-
-@media (max-width: 600px) {
-  #tagline_text1 {
-    font-size: 36px;
-    line-height: 44px;
-  }
-
-  #tagline_text2 {
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  #tagline_text3 {
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 90%;
-  }
-
-  .video-position {
-    position: absolute;
-    bottom: -12%;
-    right: 0;
-    width: 99%;
-  }
-  
-  .popular-cards {
-    margin-left: 25px;
-  }
-
-  .gallery-img {
-    min-height: 680px;
-    margin: 15px auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-  }
-  
-  #img1 {
-    grid-area: 5 / 1 / 8 / 5;
-    background-image: url(../img/1.png);
-    background-size: cover;
-  }
-  
-  #img2 {
-    grid-area: 1 / 1 / 5 / 3;
-    background-image: url(../img/2.png);
-    background-size: cover;
-  }
-  
-  #img3 {
-    grid-area: 1 / 3 / 3 / 5;
-    background-image: url(../img/3.png);
-    background-size: cover;
-  }
-  
-  #img4 {
-    grid-area: 1 / 10 / 3 / 12;
-    background-image: url(../img/4.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img5 {
-    grid-area: 3 / 1 / 5 / 3;
-    background-image: url(../img/5.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img6 {
-    grid-area: 3 / 3 / 4 / 5;
-    background-image: url(../img/6.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img7 {
-    grid-area: 4 / 3 / 5 / 5;
-    background-image: url(../img/7.png);
-    background-size: cover;
-    display: none;
-  }
-  
-  #img8 {
-    grid-area: 3 / 3 / 5 / 5;
-    background-image: url(../img/8.png);
-    background-size: cover;
-  }
-}
-
-@media (max-width: 505px) {
-  #tagline_text2 {
-    margin-left: 150px;
-  }
-
-  .reviews-cards {
-    margin-left: 1%;
-    min-height: 600px;
-  }
-
-  .reviews-card {
-    min-width: 280px;
-    height: 447px;
-    margin-left: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .img-reviews {
-    padding: 0;
-    margin: 32px 172px 20px 28px;
-  }
-  
-  .img-reviews img {
-    max-width: 80px;
-    max-height: 80px;
-  }
-
-  .reviews-card p {
-    font-size: 12px;
-    line-height: 15px;
-    margin-top: 26px;
-    margin-right: 24px;
-    margin-left: 28px;
-  }
-
-  .request {
-    max-width: 75%;
-    height: 450px;
-  }
-
-  .request h2 {
-    padding-top: 10%;
-  }
-
-  .about-card {
-    grid-area: 2 / 2 / 11 / 10;
-  }
-
-  .contact-us {
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-}
-
+/*PAGE 2*/
 
 
 #header_excursions {
@@ -1220,22 +875,36 @@ footer ul {
   display: flex;
   flex-wrap: wrap;
   margin-right: 40px;
-  width: 295px;
+  width: 26%;
   height: 1018px;
   background-color: #fff;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
+.our-tours {
+  width: 70%;
+}
 
 .our-tours-card {
-  /*width: 779px;*/
-  height: 303px;
-  left: 492px;
-  top: 696px;
+  /*left: 492px;*/
+  /*top: 696px;*/
+  margin-bottom: 20px;
+  display: flex;
   background: #FFFFFF;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+}
+
+.our-tours-card-img {
+  min-width: 238px;
+  margin-right: 45px;
+  background-image: url(../img/8.png);
+  background-size: cover;
+}
+
+.our-tours-card-content {
+  width: 541px;
 }
 
 .our-tours-card-text {
@@ -1243,18 +912,59 @@ footer ul {
   padding-top: 27px;
 }
 
-.our-tours-card-text h4 {
-  color: #282828;
-  margin-top: 0;
-}
-
 .our-tours-card-text span {
-  font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   color: #FFC700;
 }
 
+.our-tours-card-text h4 {
+  color: #282828;
+  margin-top: 0;
+}
+
+.our-tours-card-table {
+  display: flex;
+}
+
+.our-tours-card-td p {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #282828;
+}
+
+.our-tours-card-td span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0499DD;
+  padding: 0 10px;
+}
+
+.our-tours-time {
+   padding-left: 30px;
+ }
+
+.our-tours-card-description {
+  padding-left: 20px;
+  border-left: 3px solid #0499DD;
+}
+
+.our-tours-like {
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin: 20px 10px 27px;
+  border-radius: 50px;
+  background: #EDEDED;
+}
+
+.our-tours-like:hover {
+  border: 2px solid #0499DD;
+  color: #0499DD;
+
+}
 
 
 
@@ -1291,6 +1001,235 @@ footer ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1480px) {
+  .gallery-img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1240px) {
+
+  .container {
+    max-width: 1000px;
+  }
+
+  .popular-cards {
+    height: max-content;
+    justify-content: space-between;
+  }
+
+  .popular-card {
+    min-width: 295px;
+    max-height: 490px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-top: 130px;
+  }
+
+  .about-us {
+    max-height: 549px;
+    margin: 150px 60px 0 0;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+
+  .about-img {
+    grid-area: 1 / 1 / 12 /7;
+  }
+
+  .about-card {
+    grid-area: 3 / 4 / 8 / 5;
+  }
+
+  .about-card h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0 0 0 50px;
+  }
+
+  .about-card p {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 61px;
+  }
+
+  .about-card {
+    grid-area: 3 / 5 / 10 / 13;
+  }
+
+  .gallery-img {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #tagline_text2 {
+    margin-left: 500px;
+  }
+
+  #tagline_text3 {
+    line-height: 90%;
+  }
+
+  .container {
+    max-width: 88%;
+  }
+
+  .types {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .type-text h4 {
+    margin-top: 0;
+  }
+
+  .gallery-img {
+    min-height: 564px;
+    max-width: 1440px;
+    margin: 15px auto 152px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  #img1 {
+    grid-area: 1 / 1 / 3 / 5;
+    background-image: url(../img/1.png);
+    background-size: cover;
+  }
+
+  #img2 {
+    grid-area: 1 / 1 / 5 / 6;
+    background-image: url(../img/2.png);
+    background-size: cover;
+  }
+
+  #img3 {
+    grid-area: 1 / 6 / 3 / 9;
+    background-image: url(../img/3.png);
+    background-size: cover;
+  }
+
+  #img4 {
+    grid-area: 1 / 9 / 3 / 12;
+    background-image: url(../img/4.png);
+    background-size: cover;
+  }
+
+  #img5 {
+    grid-area: 3 / 1 / 5 / 3;
+    background-image: url(../img/5.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img6 {
+    grid-area: 3 / 3 / 4 / 5;
+    background-image: url(../img/6.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img7 {
+    grid-area: 4 / 3 / 5 / 5;
+    background-image: url(../img/7.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img8 {
+    grid-area: 3 / 6 / 5 / 12;
+    background-image: url(../img/8.png);
+    background-size: cover;
+  }
+
+  .request {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .excursions-our-tours {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .our-tours {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .excursions-filter-left {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 860px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  #tagline_text2 {
+    margin-left: 500px;
+  }
+
+  .about-card h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 0 0 0 30px;
+  }
+
+  .about-card p {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 61px;
+  }
+
+  .reviews-card {
+    min-width: 505px;
+    height: 246px;
+    margin-left: 20px;
+  }
+
+  .img-reviews {
+    padding: 0;
+    margin: 26px 20px 52px 31px;
+  }
+
+  .img-reviews img {
+    max-width: 168px;
+    max-height: 168px;
+  }
+
+  .reviews-card p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 26px;
+    margin-right: 17px;
+  }
+}
 
 @media (max-width: 735px) {
   #tagline_text2 {
@@ -1319,7 +1258,6 @@ footer ul {
   .about-card {
     grid-area: 3 / 2 / 10 / 10;
   }
-
 
   .footer-columns {
     display: grid;
@@ -1360,6 +1298,150 @@ footer ul {
   }
 }
 
+@media (max-width: 600px) {
+  #tagline_text1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  #tagline_text2 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  #tagline_text3 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 90%;
+  }
+
+  .video-position {
+    position: absolute;
+    bottom: -12%;
+    right: 0;
+    width: 99%;
+  }
+
+  .popular-cards {
+    margin-left: 25px;
+  }
+
+  .gallery-img {
+    min-height: 680px;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  #img1 {
+    grid-area: 5 / 1 / 8 / 5;
+    background-image: url(../img/1.png);
+    background-size: cover;
+  }
+
+  #img2 {
+    grid-area: 1 / 1 / 5 / 3;
+    background-image: url(../img/2.png);
+    background-size: cover;
+  }
+
+  #img3 {
+    grid-area: 1 / 3 / 3 / 5;
+    background-image: url(../img/3.png);
+    background-size: cover;
+  }
+
+  #img4 {
+    grid-area: 1 / 10 / 3 / 12;
+    background-image: url(../img/4.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img5 {
+    grid-area: 3 / 1 / 5 / 3;
+    background-image: url(../img/5.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img6 {
+    grid-area: 3 / 3 / 4 / 5;
+    background-image: url(../img/6.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img7 {
+    grid-area: 4 / 3 / 5 / 5;
+    background-image: url(../img/7.png);
+    background-size: cover;
+    display: none;
+  }
+
+  #img8 {
+    grid-area: 3 / 3 / 5 / 5;
+    background-image: url(../img/8.png);
+    background-size: cover;
+  }
+}
+
+@media (max-width: 505px) {
+  #tagline_text2 {
+    margin-left: 150px;
+  }
+
+  .reviews-cards {
+    margin-left: 1%;
+    min-height: 600px;
+  }
+
+  .reviews-card {
+    min-width: 280px;
+    height: 447px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+
+  .img-reviews {
+    padding: 0;
+    margin: 32px 172px 20px 28px;
+  }
+
+  .img-reviews img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .reviews-card p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 26px;
+    margin-right: 24px;
+    margin-left: 28px;
+  }
+
+  .request {
+    max-width: 75%;
+    height: 450px;
+  }
+
+  .request h2 {
+    padding-top: 10%;
+  }
+
+  .about-card {
+    grid-area: 2 / 2 / 11 / 10;
+  }
+
+  .contact-us {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
 
 
 
