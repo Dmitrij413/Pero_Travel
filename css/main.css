@@ -966,6 +966,13 @@ footer ul {
 
 }
 
+.our-tours-like:hover svg rect {
+  stroke: #0499DD;
+  fill: #0499DD;
+}
+
+
+
 
 
 
