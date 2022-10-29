@@ -135,6 +135,7 @@ h5 {
 
 h6 {
   font-style: normal;
+  margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -880,8 +881,8 @@ footer ul {
 }
 
 .excursions-filter-left {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
   margin-right: 40px;
   width: 26%;
   height: 1018px;
@@ -890,13 +891,32 @@ footer ul {
   border-radius: 10px;
 }
 
+.filter-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 31px 35px 21px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .our-tours {
   width: 70%;
 }
 
 .our-tours-card {
-  /*left: 492px;*/
-  /*top: 696px;*/
   margin-bottom: 20px;
   display: flex;
   background: #FFFFFF;
