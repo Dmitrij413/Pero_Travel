@@ -133,6 +133,14 @@ h5 {
   margin: 25px 35px 31px;
 }
 
+h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+}
+
 p {
   font-weight: 500;
   font-size: 14px;
@@ -463,8 +471,6 @@ main {
   color: #0499DD;
 }
 
-
-
 .about-us {
   max-height: 749px;
   margin: 150px 0;
@@ -481,7 +487,6 @@ main {
   background-size: cover;
   border-radius: 0 10px 10px 0;
 }
-
 
 .about-card {
   border-radius: 10px;
@@ -798,11 +803,11 @@ footer ul {
   margin-right: -4px;
 }
 
-.for-radi-btn input[type=radio] {
+.form-radio-btn input[type=radio] {
   display: none;
 }
 
-.for-radi-btn label {
+.form-radio-btn label {
   display: inline-block;
   color: #282828;
   cursor: pointer;
@@ -815,7 +820,7 @@ footer ul {
 }
 
 /* Checked */
-.for-radi-btn input[type=radio]:checked+label {
+.form-radio-btn input[type=radio]:checked+label {
   color: #0499DD;
   border-bottom: 2px solid #0499DD;
 }
