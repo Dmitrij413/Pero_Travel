@@ -885,17 +885,29 @@ footer ul {
   /*flex-wrap: wrap;*/
   margin-right: 40px;
   width: 26%;
-  height: 1018px;
+  min-height: 800px;
+  max-height: 1018px;
   background-color: #fff;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
+.filter-left-item {
+  margin: 31px 35px 21px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #EDEDED;
+}
+
 .filter-top {
   display: flex;
   justify-content: space-between;
-  margin: 31px 35px 21px;
 
+}
+
+#filter-left-btn {
+  width: 74%;
+  height: 40px;
+  margin: 0 11%;
 }
 
 
@@ -977,6 +989,11 @@ footer ul {
 .our-tours-card-description {
   padding-left: 20px;
   border-left: 3px solid #0499DD;
+}
+
+.our-tours-btn {
+  width: 160px;
+  height: 40px;
 }
 
 .our-tours-like {
