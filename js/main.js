@@ -17,3 +17,10 @@ document.querySelector('.slider-prev').addEventListener('click', function () {
     }
     sliderLine.style.left = -offset + 'px';
 });
+
+// document.addEventListener('click', function(e) {
+//     let id = e.target.dataset.toggleId
+//     if(!id) return
+//     let elem = document.getElementById(id)
+//     elem.hidden = ! elem.hidden
+// })

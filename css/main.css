@@ -910,7 +910,14 @@ footer ul {
   margin: 0 11%;
 }
 
+.peoples-radios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
+.peoples-radio {
+}
 
 
 
