@@ -890,6 +890,16 @@ footer ul {
   border-radius: 10px;
 }
 
+.excursions-filter-left label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #282828;
+  padding-left: 10px;
+  display: inline-block;
+}
+
 
 
 .menu__toggle1 {
@@ -926,6 +936,7 @@ footer ul {
     content: '';
     top: 0;
 }
+
 
 
 
