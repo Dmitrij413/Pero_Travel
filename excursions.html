@@ -66,12 +66,9 @@
                   </div>
                 </div>
                 <div class="excursions-filter-buttons">
-                    <div class="excursions-filter-button" id="excursions-place"><button>Абхазия <img src="img/map1.svg"
-                                alt="map"></button></div>
-                    <div class="excursions-filter-button" id="excursions-date"><button>10 ноября 2021 <img
-                                src="img/calendar.svg" alt="calendar"></button></div>
-                    <div class="excursions-filter-button" id="excursions-peoples"><button>5 человек <img
-                                src="img/peoples.svg" alt="peoples"></button></div>
+                    <div class="excursions-filter-button" id="excursions-place"><button>Абхазия <img src="img/map1.svg" alt="map"></button></div>
+                    <div class="excursions-filter-button" id="excursions-date"><button>10 ноября 2021 <img src="img/calendar.svg" alt="calendar"></button></div>
+                    <div class="excursions-filter-button" id="excursions-peoples"><button>5 человек <img src="img/peoples.svg" alt="peoples"></button></div>
                     <div class="excursions-filter-button-sub" id="excursions-submit"><button>Показать</button></div>
                 </div>
             </div>
@@ -80,24 +77,26 @@
                 <div class="excursions-filter-left">
                     <h5>Фильтры</h5>
                     <div class="filter-left-item">
-                        <div class="filter-top"><h6>Стоимость</h6><label for="checkbox-price"></label><input type="checkbox" name="checkbox-price" id="checkbox-price"></div>
-
+                        <div class="filter-top"><h6>Стоимость</h6><label for="checkbox-price"></label><input data-toggle-id="price-filter" type="checkbox" name="checkbox-price" id="checkbox-price"></div>
+												<div id="price-filter" hidden>
+														<h2>Test</h2>
+												</div>
                     </div>
                     <div class="filter-left-item">
-                        <div class="filter-top"><h6>Количество человек</h6><label for="checkbox-peoples"></label><input type="checkbox" name="checkbox-price" id="checkbox-peoples"></div>
-
+                        <div class="filter-top"><h6>Количество человек</h6><label for="checkbox-peoples"></label><input data-toggle-id="peoples-filter" type="checkbox" name="checkbox-people" id="checkbox-peoples"></div>
+												<div id="peoples-filter" hidden></div>
                     </div>
                     <div class="filter-left-item">
-                        <div class="filter-top"><h6>Место</h6><label for="checkbox-map"></label><input type="checkbox" name="checkbox-price" id="checkbox-map"></div>
-
+                        <div class="filter-top"><h6>Место</h6><label for="checkbox-map"></label><input data-toggle-id="map-filter" type="checkbox" name="checkbox-map" id="checkbox-map"></div>
+												<div id="map-filter" hidden></div>
                     </div>
                     <div class="filter-left-item">
-                        <div class="filter-top"><h6>Длительность</h6><label for="checkbox-duration"></label><input type="checkbox" name="checkbox-price" id="checkbox-duration"></div>
-
+                        <div class="filter-top"><h6>Длительность</h6><label for="checkbox-duration"></label><input data-toggle-id="duration-filter" type="checkbox" name="checkbox-duration" id="checkbox-duration"></div>
+												<div id="duration-filter" hidden></div>
                     </div>
                     <div class="filter-left-item">
-                        <div class="filter-top"><h6>Дата</h6><label for="checkbox-date"></label><input type="checkbox" name="checkbox-price" id="checkbox-date"></div>
-
+                        <div class="filter-top"><h6>Дата</h6><label for="checkbox-date"></label><input data-toggle-id="date-filter" type="checkbox" name="checkbox-date" id="checkbox-date"></div>
+												<div id="date-filter" hidden></div>
                     </div>
                     <button id="filter-left-btn">Показать</button>
                 </div>
@@ -464,7 +463,14 @@
             </div>
         </div>
     </footer>
-
+    <script>
+      document.addEventListener('click', function(e) {
+        let id = e.target.dataset.toggleId
+        if(!id) return
+        let elem = document.getElementById(id)
+        elem.hidden = ! elem.hidden
+      })
+    </script>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
