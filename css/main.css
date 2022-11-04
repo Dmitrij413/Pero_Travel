@@ -905,12 +905,7 @@ footer ul {
 }
 
 .menu__btn1 {
-    /*display: flex;*/
-    /*align-items: center;*/
-       /*position: absolute;*/
   margin-top: 10px;
-    /*top: 20px;*/
-    /*right: 20px;*/
     width: 10px;
     height: 25px;
     cursor: pointer;
