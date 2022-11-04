@@ -2,493 +2,473 @@
 <html lang="en" xmlns="">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap"
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap"
         rel="stylesheet">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-  <meta charset="UTF-8">
-  <title>excursions</title>
+    <meta charset="UTF-8">
+    <title>excursions</title>
 </head>
 
 <body>
-<header id="header-excursions">
-  <div class="container">
-    <nav>
-      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
-      <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-          <span></span>
-        </label>
-        <ul class="menu__box">
-          <li><a class="menu__item" href="index.html">Главная</a></li>
-          <li><a class="menu__item" href="#">Экскурсии</a></li>
-          <li><a class="menu__item" href="#">Личный кабинет</a></li>
-        </ul>
-      </div>
-    </nav>
-    <h1>Наши экскурсии</h1>
-  </div>
-</header>
-<main id="main-excursion">
-  <div class="container">
-    <div class="excursions-filter">
-      <div class="excursions-filter-radio">
-        <div class="form-radio-btn">
-          <input id="radio-1" type="radio" name="radio" value="1" checked>
-          <label for="radio-1">АВТОБУСНЫЙ ТУР</label>
+    <header id="header-excursions">
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Главная</a></li>
+                        <li><a class="menu__item" href="#">Экскурсии</a></li>
+                        <li><a class="menu__item" href="#">Личный кабинет</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Наши экскурсии</h1>
         </div>
-        <div class="form-radio-btn">
-          <input id="radio-2" type="radio" name="radio" value="2">
-          <label for="radio-2">ДЖИППИНГ</label>
-        </div>
-        <div class="form-radio-btn">
-          <input id="radio-3" type="radio" name="radio" value="3">
-          <label for="radio-3">ЯХТИНГ</label>
-        </div>
-        <div class="form-radio-btn">
-          <input id="radio-4" type="radio" name="radio" value="4">
-          <label for="radio-4">КАНЬОНИНГ</label>
-        </div>
-      </div>
-      <div class="excursions-filter-buttons">
-        <div class="excursions-filter-button" id="excursions-place"><button>Абхазия <img src="img/map1.svg"
-                                                                                         alt="map"></button></div>
-        <div class="excursions-filter-button" id="excursions-date"><button>10 ноября 2021 <img
-                src="img/calendar.svg" alt="calendar"></button></div>
-        <div class="excursions-filter-button" id="excursions-peoples"><button>5 человек <img
-                src="img/peoples.svg" alt="peoples"></button></div>
-        <div class="excursions-filter-button-sub" id="excursions-submit"><button>Показать</button></div>
-      </div>
-    </div>
+    </header>
+    <main id="main-excursion">
+        <div class="container">
+            <div class="excursions-filter">
+                <div class="excursions-filter-radio">
+                  <div class="form-radio-btn">
+                      <input id="radio-1" type="radio" name="radio" value="1" checked>
+                      <label for="radio-1">АВТОБУСНЫЙ ТУР</label>
+                  </div>
+                  <div class="form-radio-btn">
+                      <input id="radio-2" type="radio" name="radio" value="2">
+                      <label for="radio-2">ДЖИППИНГ</label>
+                  </div>
+                  <div class="form-radio-btn">
+                      <input id="radio-3" type="radio" name="radio" value="3">
+                      <label for="radio-3">ЯХТИНГ</label>
+                  </div>
+                  <div class="form-radio-btn">
+                      <input id="radio-4" type="radio" name="radio" value="4">
+                      <label for="radio-4">КАНЬОНИНГ</label>
+                  </div>
+                </div>
+                <div class="excursions-filter-buttons">
+                    <div class="excursions-filter-button" id="excursions-place"><button>Абхазия <img src="img/map1.svg"
+                                alt="map"></button></div>
+                    <div class="excursions-filter-button" id="excursions-date"><button>10 ноября 2021 <img
+                                src="img/calendar.svg" alt="calendar"></button></div>
+                    <div class="excursions-filter-button" id="excursions-peoples"><button>5 человек <img
+                                src="img/peoples.svg" alt="peoples"></button></div>
+                    <div class="excursions-filter-button-sub" id="excursions-submit"><button>Показать</button></div>
+                </div>
+            </div>
 
-    <div class="excursions-our-tours">
-      <div class="excursions-filter-left">
-        <h5>Фильтры</h5>
-        <div class="filter-left-item">
-          <div class="filter-top" data-toggle-id=""><h6>Стоимость</h6><label for="checkbox-price"></label><input type="checkbox" name="checkbox-price" id="checkbox-price"></div>
+            <div class="excursions-our-tours">
+                <div class="excursions-filter-left">
+                    <h5>Фильтры</h5>
+                    <div class="filter-left-item">
+                        <div class="filter-top"><h6>Стоимость</h6><label for="checkbox-price"></label><input type="checkbox" name="checkbox-price" id="checkbox-price"></div>
 
-        </div>
-        <div class="filter-left-item">
-          <div class="filter-top"><h6>Количество человек</h6><label for="checkbox-peoples"></label><input type="checkbox" name="checkbox-price" id="checkbox-peoples" data-toggle-id="peoples-radios"></div>
-          <div class="peoples-radios" >
-            <div class="peoples-radio" id="peoples-radios" hidden>
-              <input type="radio" name="radio-1" value="1" id="peoples-1"><label for="peoples-1">1 чел.</label>
-              <input type="radio" name="radio-1" value="2" id="peoples-2"><label for="peoples-2">2 чел.</label>
-              <input type="radio" name="radio-1" value="3" id="peoples-3"><label for="peoples-3">3 чел.</label>
-              <input type="radio" name="radio-1" value="4" id="peoples-4"><label for="peoples-4">4 чел.</label>
-              <input type="radio" name="radio-1" value="5" id="peoples-5"><label for="peoples-5">5 чел.</label>
-              <input type="radio" name="radio-1" value="6" id="peoples-6"><label for="peoples-6">6 чел.</label>
-              <input type="radio" name="radio-1" value="7" id="peoples-7"><label for="peoples-7">7 чел.</label>
-              <input type="radio" name="radio-1" value="8" id="peoples-8"><label for="peoples-8">8 чел.</label>
-              <input type="radio" name="radio-1" value="9" id="peoples-9"><label for="peoples-9">9 чел.</label>
-              <input type="radio" name="radio-1" value="10" id="peoples-10"><label for="peoples-10">10 чел.</label>
-              <input type="radio" name="radio-1" value="11" id="peoples-11"><label for="peoples-11">Больше 10 чел.</label>
-            </div>
-          </div>
-        </div>
-        <div class="filter-left-item">
-          <div class="filter-top" data-toggle-id=""><h6>Место</h6><label for="checkbox-map"></label><input type="checkbox" name="checkbox-price" id="checkbox-map"></div>
+                    </div>
+                    <div class="filter-left-item">
+                        <div class="filter-top"><h6>Количество человек</h6><label for="checkbox-peoples"></label><input type="checkbox" name="checkbox-price" id="checkbox-peoples"></div>
 
-        </div>
-        <div class="filter-left-item">
-          <div class="filter-top" data-toggle-id=""><h6>Длительность</h6><label for="checkbox-duration"></label><input type="checkbox" name="checkbox-price" id="checkbox-duration"></div>
+                    </div>
+                    <div class="filter-left-item">
+                        <div class="filter-top"><h6>Место</h6><label for="checkbox-map"></label><input type="checkbox" name="checkbox-price" id="checkbox-map"></div>
 
-        </div>
-        <div class="filter-left-item">
-          <div class="filter-top" data-toggle-id=""><h6>Дата</h6><label for="checkbox-date"></label><input type="checkbox" name="checkbox-price" id="checkbox-date"></div>
+                    </div>
+                    <div class="filter-left-item">
+                        <div class="filter-top"><h6>Длительность</h6><label for="checkbox-duration"></label><input type="checkbox" name="checkbox-price" id="checkbox-duration"></div>
 
-        </div>
-        <button id="filter-left-btn">Показать</button>
-      </div>
-      <div class="our-tours">
-        <h2>Наши туры</h2>
-        <div class="our-tours-cards">
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-          <div class="our-tours-card">
-            <div class="our-tours-card-img"></div>
-            <div class="our-tours-card-content">
-              <div class="our-tours-card-text">
-                <span>Автобусный тур</span>
-                <h4>Золотое кольцо Абхазии (из Адлера)</h4>
-                <div class="our-tours-card-table">
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Взрослый билет</p>
-                  </div>
-                  <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
-                          style="color: #0499DD">1 618 ₽</span>
-                    <p>Детский билет</p>
-                  </div>
-                  <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
-                                                                     alt=""><span style="color: #0499DD">2,5 часа</span></div>
-                </div>
-                <div class="our-tours-card-description">
-                  <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
-                    мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
-                    экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
-                    Пересечение границы без пересадок...</p>
-                </div>
-              </div>
-              <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
-                                                                                                   alt=""></button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-<footer>
-  <div class="container">
-    <div class="footer-columns">
-      <div class="logo-footer"><a href="#"><img src="img/logo_footer.png" alt="Logo Pero Travel"></a></div>
-      <div class="links-footer">
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Экскурсии</a></li>
-          <li><a href="#">Личный кабинет</a></li>
-        </ul>
-      </div>
-      <div class="contact-footer">
-        <ul>
-          <li><a href="https://wa.me/79371466603"><img src="img/watsapp_footer.png" alt="WatsApp">+7 964
-            944 18 74</a></li>
-          <li><a href="https://t.me/+79586741947" rel="nofollow noreferrer noopener" target="_blank"><img
-                  src="img/telegramm_footer.png" alt="Telegram">+7 964 944 18 74</a></li>
-          <li><a href="https://t.me/+79371466603"><img src="img/telegramm_footer.png" alt="Telegram">+7
-            964 944 18 74</a></li>
-        </ul>
-      </div>
-      <div class="contact-right">
-        <a href="mailto:office@perotravel.ru"><img src="img/mail_footer.png"
-                                                   alt="email">office@perotravel.ru</a>
-      </div>
-      <div class="soc-icon">
-        <ul>
-          <li><a href="https://vk.com/devhash"><img src="img/vk_footer.png" alt="vkontakte"></a></li>
-          <li><a href="https://instagram.com/"><img src="img/inst_footer.png" alt="instagram"></a></li>
-          <li><a href="https://ru-ru.facebook.com/"><img src="img/fb_footer.png" alt="facebook"></a></li>
-        </ul>
-      </div>
+                    </div>
+                    <div class="filter-left-item">
+                        <div class="filter-top"><h6>Дата</h6><label for="checkbox-date"></label><input type="checkbox" name="checkbox-price" id="checkbox-date"></div>
 
-    </div>
-  </div>
-</footer>
+                    </div>
+                    <button id="filter-left-btn">Показать</button>
+                </div>
+                <div class="our-tours">
+                    <h2>Наши туры</h2>
+                    <div class="our-tours-cards">
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                        <div class="our-tours-card">
+                            <div class="our-tours-card-img"></div>
+                            <div class="our-tours-card-content">
+                                <div class="our-tours-card-text">
+                                    <span>Автобусный тур</span>
+                                    <h4>Золотое кольцо Абхазии (из Адлера)</h4>
+                                    <div class="our-tours-card-table">
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Взрослый билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td"><img src="img/coins.svg" alt=""><span
+                                                style="color: #0499DD">1 618 ₽</span>
+                                            <p>Детский билет</p>
+                                        </div>
+                                        <div class="our-tours-card-td our-tours-time"><img src="img/time.svg"
+                                                alt=""><span style="color: #0499DD">2,5 часа</span></div>
+                                    </div>
+                                    <div class="our-tours-card-description">
+                                        <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20
+                                            мест). По маршруту вас будет сопровождать профессиональный гид. Посадка на
+                                            экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                            Пересечение границы без пересадок...</p>
+                                    </div>
+                                </div>
+                                <button class="our-tours-btn">Подробнее</button> <button class="our-tours-like"><img src="img/like.svg"
+                                        alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="logo-footer"><a href="#"><img src="img/logo_footer.png" alt="Logo Pero Travel"></a></div>
+                <div class="links-footer">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#">Экскурсии</a></li>
+                        <li><a href="#">Личный кабинет</a></li>
+                    </ul>
+                </div>
+                <div class="contact-footer">
+                    <ul>
+                        <li><a href="https://wa.me/79371466603"><img src="img/watsapp_footer.png" alt="WatsApp">+7 964
+                                944 18 74</a></li>
+                        <li><a href="https://t.me/+79586741947" rel="nofollow noreferrer noopener" target="_blank"><img
+                                    src="img/telegramm_footer.png" alt="Telegram">+7 964 944 18 74</a></li>
+                        <li><a href="https://t.me/+79371466603"><img src="img/telegramm_footer.png" alt="Telegram">+7
+                                964 944 18 74</a></li>
+                    </ul>
+                </div>
+                <div class="contact-right">
+                    <a href="mailto:office@perotravel.ru"><img src="img/mail_footer.png"
+                            alt="email">office@perotravel.ru</a>
+                </div>
+                <div class="soc-icon">
+                    <ul>
+                        <li><a href="https://vk.com/devhash"><img src="img/vk_footer.png" alt="vkontakte"></a></li>
+                        <li><a href="https://instagram.com/"><img src="img/inst_footer.png" alt="instagram"></a></li>
+                        <li><a href="https://ru-ru.facebook.com/"><img src="img/fb_footer.png" alt="facebook"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 
-<script src="js/main.js"></script>
-<script>
-    document.addEventListener('click', function(e) {
-        let id = e.target.dataset.toggleId
-        if(!id) return
-        let elem = document.getElementById(id)
-        elem.hidden = ! elem.hidden
-    })
-</script>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
