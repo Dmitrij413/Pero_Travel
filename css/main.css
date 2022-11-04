@@ -883,8 +883,7 @@ footer ul {
 .excursions-filter-left {
   margin-right: 40px;
   width: 26%;
-  min-height: 800px;
-  max-height: 1018px;
+  height: fit-content;
   background-color: #fff;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
@@ -968,7 +967,7 @@ footer ul {
 #filter-left-btn {
   width: 74%;
   height: 40px;
-  margin: 0 11%;
+  margin: 0 11% 50px;
 }
 
 .peoples-radios {
