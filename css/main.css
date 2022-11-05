@@ -975,11 +975,11 @@ input::-webkit-inner-spin-button {
   grid-row-gap: 0;
 }
 
-#input1 {
+#input-1 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#input2 {
+#input-2 {
   grid-area: 1 / 2 / 2 / 3;
 }
 
@@ -998,6 +998,11 @@ input::-webkit-inner-spin-button {
   border: 1px solid #EDEDED;
   border-radius: 40px;
 }
+
+.filter-price__slider {
+  margin-top: 20px;
+}
+
 
 
 
