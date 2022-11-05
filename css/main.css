@@ -1020,7 +1020,30 @@ input::-webkit-inner-spin-button {
   background: #0499DD;
 }
 
+.noUi-horizontal .noUi-handle {
+  width: 15px;
+  height: 15px;
+  right: -12px;
+  top: -6px;
+}
 
+.noUi-handle {
+  border-radius: 50px;
+  background: #FFFFFF;
+  border: 1px solid #D4D4D4;
+}
+
+.noUi-handle:after, .noUi-handle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background: #0499DD;
+  border-radius: 100%;
+  left: 4px;
+  top: 4px;
+}
 
 
 
@@ -1042,7 +1065,7 @@ input::-webkit-inner-spin-button {
 
 .our-tours-card-img {
   min-width: 238px;
-  margin-right: 45px;
+  margin-right: 43px;
   background-image: url(../img/8.png);
   background-size: cover;
 }
@@ -1052,7 +1075,7 @@ input::-webkit-inner-spin-button {
 }
 
 .our-tours-card-text {
-  margin: 27px 23px 20px;
+  margin: 27px 23px 20px 0;
   padding-top: 27px;
 }
 
