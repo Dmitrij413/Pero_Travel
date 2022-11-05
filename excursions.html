@@ -18,6 +18,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="libs/nouislider.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <meta charset="UTF-8">
@@ -81,6 +82,7 @@
 												<div id="price-filter" hidden>
 													<label for="input1"></label><input type="number" class="price-input" min="1000" max="10000" name="price-filter-input" id="input1">
 													<label for="input2"></label><input type="number" class="price-input" min="1000" max="10000" name="price-filter-input" id="input2">
+													<div class="range-slider-price"></div>
 												</div>
                     </div>
                     <div class="filter-left-item">
@@ -479,6 +481,8 @@
       })
     </script>
 
+    <script src="libs/nouislider.min.js"></script>
+    <script src="js/range-slider.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
