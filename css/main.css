@@ -899,8 +899,6 @@ footer ul {
   display: inline-block;
 }
 
-
-
 .menu__toggle1 {
     opacity: 0;
 }
@@ -936,22 +934,6 @@ footer ul {
     top: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .filter-left-item {
   margin: 31px 35px 21px;
   padding-bottom: 40px;
@@ -978,6 +960,15 @@ footer ul {
 
 .peoples-radio {
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
 
 
 
