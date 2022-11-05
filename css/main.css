@@ -967,8 +967,28 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+#price-filter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 0;
+}
+
+#input1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#input2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+#price-filter label {
+  padding: 0;
+  display: none;
+}
+
 .price-input {
-  width: 105px;
   height: 30px;
   padding: 7px 16px;
   font-size: 12px;
