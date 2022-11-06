@@ -975,11 +975,11 @@ input::-webkit-inner-spin-button {
   grid-row-gap: 0;
 }
 
-#input-1 {
+#input-0 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#input-2 {
+#input-1 {
   grid-area: 1 / 2 / 2 / 3;
 }
 
