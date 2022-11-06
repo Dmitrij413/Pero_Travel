@@ -22,7 +22,7 @@ if (rangeSlider) {
   const setRangeSlider = (i, value) => {
     let arr = [null, null];
     arr[i] = value;
-    rangeSlider.noUiSlider.set(arr)
+    rangeSlider.noUiSlider.set(arr);
   }
 
   inputs.forEach((el, index) => {
