@@ -1068,9 +1068,25 @@ input::-webkit-inner-spin-button {
   border-radius: 40px;
 }
 
+.peoples-filter-btn:hover {
+  background: #0499DD;
+  color: #FFFFFF;
+}
 
+/*.peoples-filter-btn:active {*/
+/*  background: #0499DD;*/
+/*  color: #FFFFFF;*/
+/*}*/
 
+/*.peoples-filter-radio:checked~.peoples-filter-btn {*/
+/*  background: #0499DD;*/
+/*  color: #FFFFFF;*/
+/*}*/
 
+/*.peoples-filter-radio:checked +.label{*/
+/*    background: #0499DD;*/
+/*    color: #FFFFFF;*/
+/*}*/
 
 
 
