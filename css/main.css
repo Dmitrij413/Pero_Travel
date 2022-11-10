@@ -1053,13 +1053,10 @@ input::-webkit-inner-spin-button {
   grid-row-gap: 7px;
 }
 
-#peoples-filter-btn-11 {
-  grid-area: 4 / 2 / 5 / 4;
-}
-
 .peoples-filter-btn {
   font-weight: 500;
   font-size: 12px;
+  width: 75%;
   line-height: 15px;
   color: #282828;
   text-align: center;
@@ -1068,7 +1065,30 @@ input::-webkit-inner-spin-button {
   border-radius: 40px;
 }
 
+#peoples-filter-btn-11 {
+  grid-area: 4 / 2 / 5 / 4;
+  width: 118%;
+}
+
 .peoples-filter-btn:hover {
+  background: #0499DD;
+  color: #FFFFFF;
+}
+
+#peoples-filter input[type=radio]:checked ~ label {
+  background: #0499DD;
+  color: #FFFFFF;
+}
+
+#duration-filter {
+  display: grid;
+  grid-template-columns: repeat(3, 73px);
+  grid-template-rows: 30px;
+  grid-column-gap: 3px;
+  grid-row-gap: 0;
+}
+
+#duration-filter input[type=radio]:checked ~ label {
   background: #0499DD;
   color: #FFFFFF;
 }
