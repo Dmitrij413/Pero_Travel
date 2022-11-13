@@ -950,6 +950,7 @@ footer ul {
   width: 74%;
   height: 40px;
   margin: 0 11% 50px;
+  border: none;
 }
 
 .peoples-radios {
@@ -1196,6 +1197,11 @@ input::-webkit-inner-spin-button {
 .our-tours-btn {
   width: 160px;
   height: 40px;
+  border: none;
+}
+
+.our-tours-btn:hover {
+
 }
 
 .our-tours-like {
